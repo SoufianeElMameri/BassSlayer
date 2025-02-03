@@ -1,0 +1,232 @@
+*{
+  padding: 0;
+  margin: 0;
+  list-style:none;
+  text-decoration: none;
+}
+html body{
+   overflow-x: hidden;
+}
+.topHeader{
+        display: block;
+        width:100%;
+        height:150px;
+        }
+.Header{
+        display: table;
+        background-color:black ;
+        width:100%;
+        height:100px;
+        position: fixed;
+        z-index:10;
+
+}
+.inheader{
+          height:100%;
+          width:86%;
+          background-color:;
+          margin: auto;
+}
+body{
+     background-color: #150D1E ;
+     margin: 0;
+     padding: 0;
+}
+.logo-container a img {
+                        float: left;
+                        display: table-cell;
+                        vertical-align: middle;
+                        height: 120px;
+                        width: auto;
+                        border-radius: 25px;
+
+}
+.navigation {
+                  float: right;
+                  margin-top:50px;
+}
+.navigation a {
+                  display:table;
+                  height: 100%;
+                  padding: 0px 20px;
+                  float: right;
+
+}
+.navigation a li {
+                  display:table-cell;
+                  vertical-align: middle;
+                  font-size: 17px;
+                  color:white;
+                  padding: 0;
+                  font-family: 'montserrat';
+  }
+#mobile {
+  display: none;
+  position: relative;
+  width: 100%;
+  user-select: none;
+}
+#mobilenav{
+  display: flex;
+  background-color: black;
+  height: 40px;
+  width:100%;
+  position: fixed;
+  top: 80px;
+  z-index: 9;
+  transition: top 0.5s ease-out ;
+
+}
+#mobilenav a:hover{
+              color: #461F6D;
+              -webkit-transition: all 0.2s ease;
+              -moz-transition: all 0.2s ease;
+              -o-transition: all 0.2s ease;
+              -ms-transition: all 0.2s ease;
+               transition: all 0.2s ease;
+}
+#mobilenav a {
+        font-size: 20px;
+        margin: auto;
+        color:white;
+        padding: 0;
+        font-family: 'montserrat';
+        transition: font-size 1s ease-out;
+
+}
+#mobile a.icon{
+      color : white;
+      font-size: 50px;
+      height: 50px;
+      width: 50px;
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 30px ;
+      user-select: none;
+}
+#mobile a.icon:hover{
+              color: #461F6D;
+              -webkit-transition: all 0.2s ease;
+              -moz-transition: all 0.2s ease;
+              -o-transition: all 0.2s ease;
+              -ms-transition: all 0.2s ease;
+               transition: all 0.2s ease;
+}
+#desktop{
+  display: block;
+  user-select: none;
+}
+a li:hover{
+              color: #461F6D;
+              -webkit-transition: all 0.2s ease;
+              -moz-transition: all 0.2s ease;
+              -o-transition: all 0.2s ease;
+              -ms-transition: all 0.2s ease;
+               transition: all 0.2s ease;
+}
+.navigation-text{
+      text-shadow: 0px 0px 15px white ;
+}
+.s-img{
+      display: table-cell;
+      height: 50px;
+      width: auto;
+      float: right;
+      vertical-align: middle;
+
+
+}
+.s-link {
+       display: table-cell;
+       height: 50px;
+       width: auto;
+       background-color:white;
+       border-radius: 25px;
+       float: right;
+       vertical-align: middle;
+
+}
+#discord:hover{
+  background-color: #656ab6;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+#twitter:hover{
+  background-color: #1DA1F2;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+#instagram:hover{
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+#spotify-logo:hover{
+  background-color: #1DB954;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+#youtube:hover{
+  background-color: #FF0000;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+.socials-m{
+          margin-top:50px;
+          display: table;
+          height:60px;
+          width: 250px;
+          float: right;
+}
+.text-header1{
+            color: white;
+            font-family: 'montserrat';
+            text-shadow:0px 0px 20px #5D3288;
+
+}
+
+.text-headers:hover{
+                  color: #461F6D;
+                  cursor: text;
+                  border-radius: 25px;
+                  text-shadow: none ;
+                  -webkit-transition: all 0.3s ease;
+                  -moz-transition: all 0.3s ease;
+                  -o-transition: all 0.3s ease;
+                  -ms-transition: all 0.3s ease;
+                  transition: all 0.3s ease;
+}
+.bottom{
+        display: table;
+        border: solid black;
+        background-color:black ;
+        width:100%;
+        height:160px;
+        position: relative;
+        bottom: 0px;
+
+
+}
+.inbottom{
+
+          height:100%;
+          width:90%;
+          margin: 0 auto;
+
+}

@@ -1,0 +1,304 @@
+.title-container{
+                 height: 6.66%;
+                 width:100%;
+                 position: relative;
+}
+
+.spot1{
+     position: relative;
+     background-color:  ble;
+     height: 100%;
+     width: 41.66%;
+     float: left;
+     margin-right: 8%;
+}
+.spot2{
+     position: relative;
+     background-color: rd;
+     height: 100%;
+     width:  41.66%;
+     float: left;
+}
+.text-header1{
+            color: white;
+            width: auto;
+            font-family: 'montserrat';
+            text-shadow:0px 0px 20px #5D3288;
+            display: block;
+            margin: 20px 38% 20px 42px;
+}
+.text-header2{
+          margin: 5px;
+          height: auto;
+          width: 200px;
+          margin-bottom: 20px;
+          color: white;
+          float: left;
+          font-family: 'montserrat';
+          text-shadow:0px 0px 20px #5D3288;
+
+
+}
+.text-header3{
+            margin: 5px;
+            height: auto;
+            width: auto;
+            margin-bottom: 20px;
+            color: white;
+            float: left;
+            font-family: 'montserrat';
+            text-shadow:0px 0px 20px #5D3288;
+
+}
+.text-header4{
+            margin: auto;
+            height: auto;
+            width: 196.1px;
+            margin-bottom: 20px;
+            color: white;
+            font-family: 'montserrat';
+            text-shadow:0px 0px 20px #5D3288;
+
+}
+.text-header5{
+            margin: auto;
+            height: 59px;
+            width: 270.1px;
+            color: white;
+            font-family: 'montserrat';
+            text-shadow:0px 0px 20px #5D3288;
+
+}
+.text-headers:hover{
+                  color: #461F6D;
+                  cursor: text;
+                  border-radius: 25px;
+                  text-shadow: none ;
+                  -webkit-transition: all 0.3s ease;
+                  -moz-transition: all 0.3s ease;
+                  -o-transition: all 0.3s ease;
+                  -ms-transition: all 0.3s ease;
+                  transition: all 0.3s ease;
+}
+#spotify-container-mobile{
+             width: 587px;
+             height: 359px;
+             background-color: blu;
+             margin: auto;
+             position: relative;
+             display: none;
+             padding-bottom: 80px;
+}
+#slider{
+              width:500px;
+              height: 359px;
+              background-color: bue;
+              margin: auto;
+              overflow: hidden;
+
+}
+#spotify{
+               margin-top:10px;
+               margin: 0 auto;
+               display: block;
+               background-color: rd;
+}
+#spotify2 {
+                  margin-top:10px;
+                  margin: 0 auto;
+                  display: none;
+                  background-color: ed;
+}
+.prev , .next {
+               cursor: pointer;
+               position: absolute;
+               top: 45%;
+               width: auto;
+               padding: 16px;
+               Color:white;
+               border-radius: 25px;
+               font-size: 30px;
+               transform: translateY(-45%);
+               user-select: none;
+}
+.prev-imgs , .next-imgs {
+               display: none;
+               cursor: pointer;
+               position: absolute;
+               top: 55%;
+               width: auto;
+               padding: 16px;
+               Color:white;
+               border-radius: 25px;
+               font-size: 30px;
+               transform: translateY(-55%);
+               user-select: none;
+}
+@media screen and (max-width:1302px ){
+        .prev-imgs , .next-imgs {
+              display: block;
+        }
+
+}
+.next , .next-imgs {
+       right: 0%;
+}
+.prev , .prev-imgs{
+       left: 0%;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.prev:hover , .next:hover , .prev-imgs:hover , .next-imgs:hover {
+                    background-color: black;opacity: 0.3;
+                    color: white ;
+                    -webkit-transition: all 0.3s ease;
+                    -moz-transition: all 0.3s ease;
+                    -o-transition: all 0.3s ease;
+                    -ms-transition: all 0.3s ease;
+                    transition: all 0.3s ease;
+
+}
+
+#spotify-container-desktop{
+              width: 100%;
+              height: 366px;
+              margin: auto;
+              margin-top:30px;
+              margin-bottom:80px;
+              background-color: ble;
+              display: flex;
+
+
+}
+
+.spotify{
+               margin-top:10px;
+               width: 500px;
+               margin: auto;
+               height: 364.1px;
+               background-color: ed;
+}
+#img-container-parent{
+                position: relative;
+                margin: auto;
+                height: 188px;
+                margin-bottom: 5%;
+                transition: width 0.3s ease ;
+}
+#img-container-child {
+               background-color: rd;
+               width: 93.5%;
+               height:200px;
+               padding-bottom: 50px;
+               display: flex;
+               margin: 0%;
+               overflow: hidden;
+               transition: width 0.3s ease ;
+}
+#img1 {
+      margin-left: 0%;
+      transition: margin 0.5s ease-out;
+}
+.imgs{
+     position: relative;
+      height: auto;
+      width: 300px;
+      background-color: bue;
+      margin: auto;
+}
+.imgs:hover img{
+      -webkit-filter: brightness(50%);
+      -webkit-transition: all 0.6s ease;
+      -moz-transition: all 0.6s ease;
+      -o-transition: all 0.6s ease;
+      -ms-transition: all 0.6s ease;
+      transition: all 0.6s ease;
+}
+.imgs:hover div{
+      opacity: 95%;
+      -webkit-transition: all 0.6s ease;
+      -moz-transition: all 0.6s ease;
+      -o-transition: all 0.6s ease;
+      -ms-transition: all 0.6s ease;
+      transition: all 0.6s ease;
+      animation-duration: 0.6;
+
+}
+.inner-text{
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            transform: translateX(-50%);
+            color: white;
+            height: auto;
+            width: 210px;
+            opacity: 0%;
+            cursor: pointer;
+            text-align: center;
+            font-size: 17px;
+            font-family:'montserrat';
+}
+
+.subcontainer {
+        display: block;
+        background-color: rd;
+        width: 30%;
+        height: 479px;
+        margin: auto;
+}
+.submitions{
+        position: relative;
+        display: flex;
+        margin-bottom: 20px;
+        height: 30px;
+        width: 70%;
+        left:50%;
+        transform: translateX(-50%);
+        border:none;
+        outline: none;
+        background: transparent;
+        border-bottom: 1px solid white;
+        color: white;
+        font-family: 'montserrat';
+        font-size: 13px;
+        font-weight: bold;
+
+}
+
+.button-holder{
+        text-align: center;
+
+}
+.button{
+      opacity: 70%;
+      margin-top: 20px;
+      height: 40px;
+      width: 50%;
+      border-radius: 25px;
+      color: black;
+      cursor:pointer;
+      font-family: 'montserrat';
+      font-size: 14px;
+      font-weight: bold ;
+      transition: opacity 0.3s ease-in , color 0.3s ease;
+
+}
+.button:hover{
+      opacity: 100%;
+      color: #5D3288;
+
+}
