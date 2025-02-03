@@ -24,13 +24,15 @@ html body{
 .inheader{
           height:100%;
           width:86%;
-          background-color:;
           margin: auto;
 }
 body{
      background-color: #150D1E ;
      margin: 0;
      padding: 0;
+}
+#submit{
+  height: 72vh;
 }
 .logo-container a img {
                         float: left;
@@ -188,7 +190,7 @@ a li:hover{
   transition: all 0.2s ease;
 }
 .socials-m{
-          margin-top:50px;
+          margin-top:25px;
           display: table;
           height:60px;
           width: 250px;
@@ -217,15 +219,13 @@ a li:hover{
         border: solid black;
         background-color:black ;
         width:100%;
-        height:160px;
+        height:10vh;
         position: relative;
         bottom: 0px;
 
 
 }
 .inbottom{
-
-          height:100%;
           width:90%;
           margin: 0 auto;
 

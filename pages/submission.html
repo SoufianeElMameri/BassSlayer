@@ -4,8 +4,8 @@
     <link rel="stylesheet" href="slides.css">
     <link rel="icon" href="logos/logo.png" type="image/icon type">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style/BS-css.css">
-    <link rel="stylesheet" href="style/Body.css">
+    <link rel="stylesheet" href="../style/BS-css.css">
+    <link rel="stylesheet" href="../style/Body.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -15,7 +15,7 @@
     <div class="Header">
       <div class="inheader">
         <div class="logo-container">
-           <a href="../index.html"> <img onmouseover="changelogo()" onmouseout="changelogoback()" id="lg" src="logo.png" alt="BassSlayer-Logo" > </a>
+           <a href="../index.html"> <img onmouseover="changelogo()" onmouseout="changelogoback()" id="lg" src="../logos/logo.png" alt="BassSlayer-Logo" > </a>
         </div>
         <div id="desktop">
           <ul class="navigation fade">
@@ -39,16 +39,18 @@
       <header class="topHeader">
 
       </header>
-    <h1 class="text-header1 text-headers">Submission</h1>
-    <div class ="subcontainer">
-      <form method="post" action="../script/scripts.php">
-        <input class="submitions" id="fname" type="text" name="full_name" placeholder="Full-Name" >
-        <input class="submitions" id="mail" type="text" name="e_mail" placeholder="E-mail" required><span class="error"><?php echo $email_error?></span>
-        <input class="submitions"type="text" name="text" placeholder="Text" >
-        <input class="submitions"type="text" name="video_link" placeholder="Video Link" required>
-        <div class="button-holder"><input class="button" type="submit" name="Submit-Button" value="Submit" onclick="checkfname()" ></div>
-      </form>
-    </div>
+    <main id="submit">
+      <h1 class="text-header1 text-headers">Submission</h1>
+      <div class ="subcontainer">
+        <form method="post" action="../script/scripts.php">
+          <input class="submitions" id="fname" type="text" name="full_name" placeholder="Full-Name" >
+          <input class="submitions" id="mail" type="text" name="e_mail" placeholder="E-mail" required><span class="error"><?php echo $email_error?></span>
+          <input class="submitions"type="text" name="text" placeholder="Text" >
+          <input class="submitions"type="text" name="video_link" placeholder="Video Link" required>
+          <div class="button-holder"><input class="button" type="submit" name="Submit-Button" value="Submit" onclick="checkfname()" ></div>
+        </form>
+      </div>
+    </main>
     <footer class="bottom">
       <div class="inbottom">
         <ul class="socials-m">

@@ -1,8 +1,8 @@
 function changelogo(){
-        document.getElementById('lg').src="logo2.png";
+        document.getElementById('lg').src="logos/logo2.png";
         }
 function changelogoback(){
-        document.getElementById('lg').src="logo.png";
+        document.getElementById('lg').src="logos/logo.png";
         }
 function checkfname(){
           var checkname = document.getElementById("fname").value;
